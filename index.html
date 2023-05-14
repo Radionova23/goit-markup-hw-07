@@ -21,26 +21,9 @@
        <header class="page-header">
         <div class="container container-header">
            <nav class="main-nav">
+          
+             <a href="./index.html" class="logo-header link">Web<span>Studio</span></a>
 
-            
-                <a href="./index.html" class="logo-header link">Web<span>Studio</span></a>
-        
-                <ul class="site-nav list">
-                 <li class="item"><a href="./index.html" class="link active current">Studio</a></li>
-                 <li class="item"><a href="./portfolio.html" class="link">Portfolio</a></li>
-                 <li class="item"><a href="" class="link">Contacts</a></li>
-                </ul>
-                
-            </nav>
-        
-           <address class="contact">
-
-                <ul  class="address list">
-                    <li class="add"><a class="address-item link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="add"><a class="address-item link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-                
-                </ul>
-                
             </address>
             <button 
             class="menu-toggle js-open-menu" 
@@ -55,6 +38,25 @@
                    <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
                 </svg>
             </button>
+     
+             <ul class="site-nav list">
+              <li class="item"><a href="./index.html" class="link active current">Studio</a></li>
+              <li class="item"><a href="./portfolio.html" class="link">Portfolio</a></li>
+              <li class="item"><a href="" class="link">Contacts</a></li>
+             </ul>
+             
+         </nav>
+     
+        <address class="contact">
+
+             <ul  class="address list">
+                 <li class="add"><a class="address-item link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                 <li class="add"><a class="address-item link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+             
+             </ul>
+             
+        
+         
           
         </div>
            
@@ -618,13 +620,18 @@
 
         <!--mobail-menu-->
         <div class="menu-container js-menu-container" id="mobile-menu">
-            <button class="menu-toggle js-close-menu">
+            <button class="modal-button" type="button" data-modal-close>
+                <svg class="modal-icon" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+                </svg>
+            </button>
+            <!--<button class="menu-toggle js-close-menu">
                 <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                     <path fill-rule="evenodd"
                         d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
                         clip-rule="evenodd"></path>
                 </svg>
-            </button>
+            </button>-->
         
             <ul class="mobile-menu">
                 <li class="mobil-nav-list"><a href="" class="mobile-nav mobi">Studio</a></li>
